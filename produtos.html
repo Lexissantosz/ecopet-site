@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos | Ecopet</title>
+  <meta
+    name="description"
+    content="Conheça a caminha da Ecopet e faça sua reserva pelo WhatsApp ou Instagram."
+  />
+
+  <link rel="icon" type="image/png" href="arquivos/imagens/favicon-ecopet.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img
+          src="arquivos/imagens/logo-simplificada.png"
+          alt="Logo Ecopet"
+          class="brand-logo"
+        />
+        <span class="brand-text">Ecopet</span>
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="index.html">Início</a>
+        <a href="apoiase.html">Apoie</a>
+        <a href="produtos.html" class="active">Produtos</a>
+      </nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Abrir menu de navegação"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero small-hero">
+      <div class="container center">
+        <span class="section-tag">Catálogo inicial</span>
+        <h1>Produtos da Ecopet</h1>
+        <p>
+          Nossa produção é feita com cuidado, em pequena escala e por encomenda.
+          No momento, temos uma caminha disponível.
+        </p>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="container products-layout">
+        <div class="products-grid single-product">
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="arquivos/imagens/logo-principal.png"
+                alt="Identidade visual da Ecopet"
+                class="product-photo"
+              />
+            </div>
+
+            <div class="product-info">
+              <span class="product-badge">Disponível por encomenda</span>
+              <h2>Caminha Ecopet</h2>
+              <p>
+                A caminha Ecopet representa o início da marca: um produto pensado
+                para o bem-estar dos gatos, com apresentação delicada e proposta consciente.
+              </p>
+
+              <ul class="product-details">
+                <li>Produção sob encomenda</li>
+                <li>Atendimento real via WhatsApp ou Instagram</li>
+                <li>Projeto indie em crescimento</li>
+              </ul>
+
+              <div class="product-actions">
+                <button
+                  class="btn btn-secondary add-to-cart"
+                  data-name="Caminha Ecopet"
+                >
+                  Adicionar ao carrinho
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <div class="coming-soon-box">
+            <h3>Mais produtos em breve</h3>
+            <p>
+              A Ecopet está em crescimento. Novos itens poderão ser adicionados
+              futuramente conforme a expansão do projeto.
+            </p>
+          </div>
+        </div>
+
+        <aside class="cart-box">
+          <h3>Seu carrinho</h3>
+
+          <div id="cartItems">
+            <p class="empty-cart">Nenhum item adicionado ainda.</p>
+          </div>
+
+          <div class="cart-actions">
+            <button id="reserveWhatsApp" class="btn btn-primary">
+              Gerar orçamento no WhatsApp
+            </button>
+
+            <button id="reserveInstagram" class="btn btn-outline">
+              Reservar pelo Instagram
+            </button>
+          </div>
+
+          <p class="cart-note">
+            O carrinho funciona como uma lista de interesse para facilitar seu pedido.
+          </p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>Ecopet</h3>
+        <p>Por um mundo mais biodegradável.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="apoiase.html">Apoie</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/ecopet333" target="_blank" rel="noopener noreferrer">
+          Instagram @ecopet333
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Ecopet — Projeto independente.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
