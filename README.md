@@ -17,27 +17,6 @@ O site apresenta:
 
 O projeto foi pensado para crescer futuramente, podendo receber novos produtos e novas páginas.
 
-Estrutura do projeto
-ECOPET
-│
-├─ arquivos
-│   └─ imagens
-│       ├─ logo-principal.png
-│       ├─ logo-simplificada.png
-│       ├─ hero-ecopet.png
-│       └─ favicon-ecopet.png
-│
-├─ css
-│   └─ style.css
-│
-├─ js
-│   └─ script.js
-│
-├─ index.html
-├─ produtos.html
-├─ apoiase.html
-└─ README.md
-
 Tecnologias utilizadas
 - HTML5
 - CSS3
